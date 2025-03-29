@@ -34,7 +34,8 @@ TEST_F(ProgramsTest, test_sanity) {
                            {"uninstall_string", NormalType},
                            {"install_date", NormalType},
                            {"identifying_number", NormalType},
-                           {"upgrade_code", NormalType}};
+                           {"upgrade_code", NormalType},
+                           {"package_family_name", NormalType}};
   validate_rows(data, row_map);
 }
 
